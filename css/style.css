@@ -1,0 +1,42 @@
+@font-face {
+    font-family: Signatra;
+    src: url("../fonts/Signatra.ttf");
+  }
+@font-face{
+    font-family: Gamja;
+    src: url("../fonts/GamjaFlower-Regular.ttf");
+}  
+
+* {
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+
+body{
+    background: rgb(250,207,169);
+    background: radial-gradient(circle, rgba(250,207,169,1) 0%, rgba(241,168,140,1) 100%);
+    width: 100%;
+    height: 100%;
+    
+}
+a {
+    text-decoration: none;
+}
+.post{
+    border-radius: 20px;
+    border: white 1px solid;
+    float: center;
+    padding: 2%;
+    margin: auto;
+    width: 180px;
+    height: 180px;
+    overflow: hidden;
+}
+.logos{
+    width: 100px;
+    height: 50px;
+    margin: 2%;
+    display: block;
+    margin: 2% auto;
+}
